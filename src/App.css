@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f2f3f7;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,8 +25,74 @@
   color: white;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #792c0850;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.blog-item {
+  background: white;
+  font: Sans-serif;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+button {
+  margin-right: 5px;
+  background-color: #008839;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b30054;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font: Sans-serif;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+h1 {
+  color: #000;
+  background-color: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  
+}
+
+p{
+  color: #000000;
+  font: monospace;
+  font-style: bold;
+  padding-bottom: 20px;
+  border: 2px;
+}
+
+form{
+  align-items: center;
+  width: 50%;
+  margin: auto;
 }
 
 @keyframes App-logo-spin {
